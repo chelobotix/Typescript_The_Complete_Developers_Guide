@@ -25,3 +25,7 @@ const point: { fName: string; age: number } = {
 const sum: (a: number, b: number) => void = (a: number, b: number) => {
   console.log(a + b);
 };
+
+// Function that return any
+const json = '{"fName": "Natish, "age": 5}';
+const coordinates: { fname: string; age: number } = JSON.parse(json);

@@ -1,7 +1,7 @@
 /* -------------------------------------------------------------------------- */
 /*                                 Interfaces                                 */
 /* -------------------------------------------------------------------------- */
-interface Car {
+interface Car1 {
   name: string;
   year: number;
   broken: boolean;
@@ -17,7 +17,7 @@ const oldCivic = {
   },
 };
 
-const printCar = (car: Car): void => {
+const printCar = (car: Car1): void => {
   console.log(`Name: ${car.name}, Year: ${car.year}. Is it broken? ${car.broken}`);
   console.log(car.summary());
 };
